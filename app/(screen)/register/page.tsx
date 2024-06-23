@@ -29,23 +29,21 @@ const Page = () => {
         className="bg-white border p-10 border-gray-500 flex flex-col gap-4"
       >
         <div className="flex flex-col gap-2">
-          <h1 className="font-mono text-[20px] font-bold">
-            Registeration Form
-          </h1>
+          <h1 className="font-mono text-[20px] font-bold">Register</h1>
           <div className="w-[30%] bg-green-300 h-[4px]"></div>
         </div>
 
         <div className="flex flex-col gap-1">
           <span className="font-sans font-light text-[13px]">Name</span>
           <input
-            className="border border-gray-400 p-2 rounded-sm outline-none focus:shadow-md focus:border-blue-600 hover:border-black text-[12px] font-medium"
+            className="border border-gray-400 p-2 rounded-sm outline-none focus:shadow-md focus:border-blue-950 hover:border-black text-[12px] font-medium"
             type="text"
             name="name"
           />
         </div>
 
         <div className="flex flex-col gap-1">
-          <span className="font-sans font-light text-[12px]">Email</span>
+          <span className="font-sans font-light text-[12px]">Email Adress</span>
           <input
             className="border border-gray-400 p-2 rounded-sm outline-none focus:shadow-md focus:border-blue-600 hover:border-black text-[12px] font-medium"
             type="text"
@@ -71,10 +69,10 @@ const Page = () => {
           </div>
 
           <Link
-            className="text-[10px] hover:underline text-blue-600"
+            className="text-[10px] hover:underline text-blue-950"
             href="/signin"
           >
-            Already have an account? Sign in here
+            Already have an account? Sign in
           </Link>
         </div>
 
@@ -86,19 +84,19 @@ const Page = () => {
         </button>
         <div className="flex flex-col gap-1 justify-center items-center">
           <Link
-            className="hover:underline font-sans font-light text-[13px] text-blue-600"
+            className="hover:underline font-sans font-light text-[13px] text-blue-950"
             href=""
           >
             Forgot email?
           </Link>
           <Link
-            className="hover:underline font-sans font-light text-[13px] text-blue-600"
+            className="hover:underline font-sans font-light text-[13px] text-blue-950"
             href=""
           >
             Forgot password?
           </Link>
           <Link
-            className="hover:underline font-sans font-light text-[13px] text-blue-600"
+            className="hover:underline font-sans font-light text-[13px] text-blue-950"
             href=""
           >
             Need help?
