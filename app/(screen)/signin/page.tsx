@@ -66,26 +66,7 @@ const Page = () => {
           </div>
           <div>Sign In</div>
         </button>
-        <div className="flex flex-col gap-1 justify-center items-center">
-          <Link
-            className="hover:underline font-sans font-light text-[13px] text-blue-600"
-            href=""
-          >
-            Forgot email?
-          </Link>
-          <Link
-            className="hover:underline font-sans font-light text-[13px] text-blue-600"
-            href=""
-          >
-            Forgot password?
-          </Link>
-          <Link
-            className="hover:underline font-sans font-light text-[13px] text-blue-600"
-            href=""
-          >
-            Need help?
-          </Link>
-        </div>
+        <div className="flex flex-col gap-1 justify-center items-center"></div>
       </form>
     </div>
   );

@@ -26,7 +26,7 @@ const page = () => {
         .end(buff);
     });
 
-    const url = "https://monday-asssignment.vercel.app/api/card";
+    const url = "https://assign-amber.vercel.app/api/card";
 
     await fetch(url, {
       method: "POST",
