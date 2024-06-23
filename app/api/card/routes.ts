@@ -1,10 +1,10 @@
-import { dbConfig } from "@/app/utils/dbConfig";
+import { dbconfig } from "@/app/utils/dbconfig";
 import myCardModel from "@/app/utils/model/cardModel";
 import { NextRequest, NextResponse } from "next/server";
 
 export const POST = async (req: NextRequest, res: NextResponse) => {
   try {
-    await dbConfig();
+    await dbconfig();
     const { title, description, image } = await req.json();
     const getD = await myCardModel.create({ title, description, image });
     return NextResponse.json({
